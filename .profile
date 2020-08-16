@@ -46,6 +46,8 @@ clone(){
 #############################################################################################################
 # ENV Variables
 
-if [ -f $HOME/secrets.sh ]; then
+if [ -f ./secrets.sh ]; then
+  source ./secrets.sh
+else if [ -f $HOME/secrets.sh ]; then
   source $HOME/secrets.sh
 fi
