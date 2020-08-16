@@ -1,0 +1,20 @@
+[push]
+	default = current
+
+[pull]
+	default = current
+
+[branch "master"]
+	remote = origin
+	merge  = refs/heads/master
+
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+
+[alias]
+	c = commit -m 
+	d = diff
+	s = status
+	t = tag -l

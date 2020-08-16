@@ -15,7 +15,7 @@ cd(){
 		builtin cd "$1"
 	fi
 	pwd
-	ls -ad 
+	ls -a
 }
 alias ..='cd ..'
 alias ~='cd'
