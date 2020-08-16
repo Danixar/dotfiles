@@ -20,7 +20,7 @@ Evan Wiegers - customizing zsh and iTerm2
     * ii. syntax highlighting - ```git clone https://github.com/zsh-users/zsh-syntax-highlighting ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting``` <br/>
     * iii. completions - ```git clone https://github.com/zsh-users/zsh-completions ~/.oh-my-zsh/custom/plugins/zsh-completions``` <br/>
 2. iTerm2 - [Download](https://www.iterm2.com/)
-3. Nerd Fonts (Patched Fonts) - [Download](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts) *or* use ```brew tap homebrew/cask-fonts; brew search nerd; brew install robotomono-nerd-nerd-font```
+3. Nerd Fonts (Patched Fonts) - [Download](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts) *or* use ```brew tap homebrew/cask-fonts; brew search nerd; brew cask install robotomono-complete-nerd-font```
 
 # Links
 1. [zsh](https://linux.die.net/man/1/zsh)
