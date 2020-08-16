@@ -7,7 +7,7 @@ Evan Wiegers - customizing zsh and iTerm2
 2. [Download the below resources](#Downloads)
 3. Set iTerm2 font/non-ascii-font (RobotoMono Nerd Font), colour preset (Dark Background), and keyboard preset (natural text editing)
 4. Configure dotfiles by creating .zshrc and .profile in $HOME and add source commands to them to run their respective dotfiles from this git repository
->* i.e. In $HOME/.zshrc add ```source ~/dotfiles/.zshrc```
+  * i.e. In $HOME/.zshrc add ```source ~/dotfiles/.zshrc```
 5. Create files $HOME/secrets.sh to include all secret ENV variables 
 
 # Downloads
