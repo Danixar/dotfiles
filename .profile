@@ -1,4 +1,4 @@
-echo "Welcom to zsh!"
+echo "Welcome to zsh!"
 
 #############################################################################################################
 # Aliases and Functions
@@ -48,6 +48,6 @@ clone(){
 
 if [ -f ./secrets.sh ]; then
   source ./secrets.sh
-else if [ -f $HOME/secrets.sh ]; then
+elif [ -f $HOME/secrets.sh ]; then
   source $HOME/secrets.sh
 fi
