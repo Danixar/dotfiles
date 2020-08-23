@@ -13,20 +13,40 @@ By Evan Wiegers
     * iii. completions - ```git clone https://github.com/zsh-users/zsh-completions ~/.oh-my-zsh/custom/plugins/zsh-completions``` <br/>
 2. iTerm2 - [Download](https://www.iterm2.com/)
 3. Nerd Fonts (Patched Fonts) - [Download](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts) *or* use ```brew tap homebrew/cask-fonts; brew search nerd; brew cask install robotomono-complete-nerd-font```
+4. Eslint and Prettier - Download via VS Code Extensions
 
 # Tutorial 
-1. Clone repo ```git clone https://github.com/Danixar/dotfiles.git``` (assumed into ~ for the following)
-2. [Download](#Downloads) all the above resources
+
+1. Clone repo ```git clone https://github.com/Danixar/dotfiles.git```
+
+### for zsh and git
+2. [Download](#Downloads) parts 1 to 3 of the above resources
 3. Set iTerm2 font/non-ascii-font (RobotoMono Nerd Font), colour preset (Dark Background), and keyboard preset (natural text editing)
 4. Configure dotfiles by creating .zshrc and .profile in $HOME and add source commands to them to run their respective dotfiles from this git repository:
-  * ~/.zshrc ```source ~/dotfiles/.zshrc```
-  * ~/.profile ```source ~/dotfiles/.profile```
-  * ~ ```git --config include.path '~/dotfiles/.gitconfig'```
+  * ~/.zshrc ```source ~/path/to/dotfiles/.zshrc```
+  * ~/.profile ```source ~/path/to/dotfiles/.profile```
+  * ~ ```git --config include.path '~/path/todotfiles/.gitconfig'```
 5. Create files ~/secrets.sh or ~/dotfiles/.secrets.sh to include all secrets
+
+### for eslint and prettier
+6. [Download](#Downloads) part 4 of the above resources
+7. Within a node project, apply the following commands: 
+```
+npm i -D eslint prettier eslint-plugin-prettier eslint-config-prettier eslint-plugin-node eslint-config-node
+npx install-peerdeps --dev eslint-config-airbnb
+```
+8. Copy .eslintrc.json and .prettierrc to the project via:
+```
+cp ~/path/to/dotfiles/.eslintrc.json ~/path/to/project/.eslintrc.json 
+cp ~/path/to/dotfiles/.prettierc ~/path/to/project/.prettierrc
+```
+
 
 # Links
 1. [zsh](https://linux.die.net/man/1/zsh)
 2. [Oh my zsh](https://github.com/robbyrussell/oh-my-zsh)
 3. [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts)
 4. [Powerlevel9k](https://github.com/bhilburn/powerlevel9k)
-5. [ampersandre/dotfiles](https://github.com/ampersandre/dotfiles)
+6. [Eslint](https://eslint.org/)
+7. [Prettier](https://prettier.io/)
+8. [ampersandre/dotfiles](https://github.com/ampersandre/dotfiles)
