@@ -19,7 +19,7 @@ By Evan Wiegers
 
 1. Clone repo ```git clone https://github.com/Danixar/dotfiles.git```
 
-### for zsh and git
+### For zsh and git
 2. [Download](#Downloads) parts 1 to 3 of the above resources
 3. Set iTerm2 font/non-ascii-font (RobotoMono Nerd Font), colour preset (Dark Background), and keyboard preset (natural text editing)
 4. Configure dotfiles by creating .zshrc and .profile in $HOME and add source commands to them to run their respective dotfiles from this git repository:
@@ -28,7 +28,7 @@ By Evan Wiegers
   * ~ ```git --config include.path '~/path/todotfiles/.gitconfig'```
 5. Create files ~/secrets.sh or ~/dotfiles/.secrets.sh to include all secrets
 
-### for eslint and prettier
+### For eslint and prettier
 6. [Download](#Downloads) part 4 of the above resources
 7. Within a node project, apply the following commands: 
 ```
