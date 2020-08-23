@@ -25,7 +25,7 @@ By Evan Wiegers
 4. Configure dotfiles by creating .zshrc and .profile in $HOME and add source commands to them to run their respective dotfiles from this git repository:
   * ~/.zshrc ```source ~/path/to/dotfiles/.zshrc```
   * ~/.profile ```source ~/path/to/dotfiles/.profile```
-  * ~ ```git --config include.path '~/path/todotfiles/.gitconfig'```
+  * ~ ```git --config include.path '~/path/to/dotfiles/.gitconfig'```
 5. Create files ~/secrets.sh or ~/dotfiles/.secrets.sh to include all secrets
 
 ### For eslint and prettier
