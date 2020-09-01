@@ -13,7 +13,8 @@ By Evan Wiegers
     * iii. completions - ```git clone https://github.com/zsh-users/zsh-completions ~/.oh-my-zsh/custom/plugins/zsh-completions``` <br/>
 2. iTerm2 - [Download](https://www.iterm2.com/)
 3. Nerd Fonts (Patched Fonts) - [Download](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts) *or* use ```brew tap homebrew/cask-fonts; brew search nerd; brew cask install robotomono-complete-nerd-font```
-4. Eslint and Prettier - Download via VS Code Extensions
+4. Visual Studio Code - [Download](https://code.visualstudio.com/)
+5. Eslint and Prettier - Download via Visual Studio Code Extensions
 
 # Tutorial 
 
@@ -29,7 +30,7 @@ By Evan Wiegers
 5. Create files ~/secrets.sh or ~/dotfiles/.secrets.sh to include all secrets
 
 ### For eslint and prettier
-6. [Download](#Downloads) part 4 of the above resources
+6. [Download](#Downloads) parts 4 and 5 of the above resources
 7. Within a node project, apply the following commands: 
 ```
 npm i -D eslint prettier eslint-plugin-prettier eslint-config-prettier eslint-plugin-node eslint-config-node
@@ -47,6 +48,6 @@ cp ~/path/to/dotfiles/.prettierc ~/path/to/project/.prettierrc
 2. [Oh my zsh](https://github.com/robbyrussell/oh-my-zsh)
 3. [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts)
 4. [Powerlevel9k](https://github.com/bhilburn/powerlevel9k)
+5. [Visual Studio Code](https://code.visualstudio.com/docs)
 6. [Eslint](https://eslint.org/)
 7. [Prettier](https://prettier.io/)
-8. [ampersandre/dotfiles](https://github.com/ampersandre/dotfiles)
